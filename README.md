@@ -1,6 +1,5 @@
 # numc
 
--
 In this project I implemented a version of numpy. First, I wrote naive solutions for various matrix functions in C. This included an allocate function for new matrices, an allocate_ref function for matrices that were actually a slice of another matrix, a deallocate function to delete matrices, and arithmetic functions such as add, subtract, negate, absolute value, multiply, fill, and power. Most of these were done in a linear, piece-wise manner, and obviously the speedup was very low. The ultimate functionality of this project was to enable the user to call an executable file numc, and then write in python methods to modify and do math on matrices. 
 
 These are some examples:
